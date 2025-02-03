@@ -137,3 +137,31 @@ small {
 form .form-help :where(label, a) {
     font-size: 14px;
 }
+
+/* MEDIAS QUERIES */
+@media (max-width: 600px) {
+    nav {
+        padding: 15px 20px;
+    }
+
+    .form-wrapper {
+        width: 90%;
+        padding: 40px;
+    }
+
+    .form-wrapper h2 {
+        font-size: 24px;
+    }
+
+    .form-control input {
+        font-size: 14px;
+    }
+
+    button {
+        font-size: 14px;
+    }
+
+    small {
+        font-size: 12px;
+    }
+}
