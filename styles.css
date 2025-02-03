@@ -143,10 +143,15 @@ form .form-help :where(label, a) {
     nav {
         padding: 15px 20px;
     }
+    
+    nav img {
+        width: 50px;
+    }
 
     .form-wrapper {
         width: 90%;
         padding: 40px;
+        top: 50%;
     }
 
     .form-wrapper h2 {
@@ -163,5 +168,32 @@ form .form-help :where(label, a) {
 
     small {
         font-size: 12px;
+    }
+
+    @media (min-width: 601px) and (max-width: 900px) {
+    nav {
+        padding: 20px 25px; 
+    }
+
+    nav img {
+        width: 60px; 
+    }
+
+    .form-wrapper {
+        width: 80%; 
+        padding: 60px;
+        top: 50%;
+    }
+
+    .form-wrapper h2 {
+        font-size: 26px; 
+    }
+
+    .form-control input {
+        font-size: 15px; 
+    }
+
+    button {
+        font-size: 15px; 
     }
 }
